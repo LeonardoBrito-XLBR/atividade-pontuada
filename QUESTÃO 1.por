@@ -1,10 +1,8 @@
 programa {
   funcao inicio() {
 
-    //Declarando as variaveis 
     inteiro a, b, c, soma
 
-    //Solicitando os dados ao usuario
     escreva ("Primeiro Numero: ")
     leia (a)
     escreva ("Segundo Numero ")
@@ -12,10 +10,8 @@ programa {
     escreva ("Terceiro Numero: ")
     leia (c)
 
-    //Realizando as operações
     soma = a + b
 
-    //Verificando se as condições são verdadeiras e Exibindo dados
     se (soma < c){
       escreva ("Soma é menor que C")
     }senao{
@@ -24,3 +20,15 @@ programa {
     
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 339; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
