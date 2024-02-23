@@ -8,11 +8,11 @@ programa {
     
 
     escreva ("\t=== Seja Vindo ao Super Mercado MaxStar ===")
-    escreva ("\n Qual o produto você vai querer: ")
+    escreva ("\n Qual o produto vocÃª vai querer: ")
     leia (nomeProd)
-    escreva ("Qual a quantidade você vai levar: ")    
+    escreva ("Qual a quantidade vocÃª vai levar: ")    
     leia (quant)
-    escreva ("Quanto ele custa preço: ")
+    escreva ("Quanto ele custa preÃ§o: ")
     leia (preco)
 
     total = quant * preco
