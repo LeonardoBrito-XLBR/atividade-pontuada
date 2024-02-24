@@ -34,8 +34,14 @@ programa {
     desconto == 0.05
     }
 
-    //Finalizando com o descnnto
-    totalfinal = total - desconto
+    //Calculando o valor do desconto
+		desconto = total * desconto
+
+		//Aplicando o desconto ao totalfinal
+		totalfinal = total - desconto
+
+		escreva ("\nSeu Total Final ficou: ",totalfinal)
+    
     
   }
 }
