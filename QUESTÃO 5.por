@@ -7,16 +7,16 @@ programa {
     real resultado
 
     //Solicitando os dois numeros e o operador para o usuario 
-    escreva ("Digite seu primeiro número: ")
+    escreva ("Digite seu primeiro nÃºmero: ")
     leia (num1)
 
-    escreva ("\nDigite seu segundo número: ")
+    escreva ("\nDigite seu segundo nÃºmero: ")
     leia (num2)
 
     escreva ("\nDigite seu operador desejado: ")
     leia (operador)
 
-    //Realizando as operações matematicas 
+    //Realizando as operaÃ§Ãµes matematicas e declarando os resultados
     escolha(operador){
       caso "+": 
       resultado = num1 + num2
