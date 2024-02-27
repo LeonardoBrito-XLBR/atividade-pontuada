@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 
-    real numPrestacao, vlrEmprestimo, vlrRenda, vlrPrestacao, rendaMensal
+    real numPrestacao, vlrEmprestimo, vlrRenda, vlrPrestacao
 
     escreva ("Renda mensal: ")
     leia (vlrRenda)
